@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TheOctoWorld/static/css/main.dd3b6a94.chunk.css",
+    "main.js": "/TheOctoWorld/static/js/main.77ccbe0d.chunk.js",
+    "main.js.map": "/TheOctoWorld/static/js/main.77ccbe0d.chunk.js.map",
+    "runtime-main.js": "/TheOctoWorld/static/js/runtime-main.3053d566.js",
+    "runtime-main.js.map": "/TheOctoWorld/static/js/runtime-main.3053d566.js.map",
+    "static/js/2.46edc20b.chunk.js": "/TheOctoWorld/static/js/2.46edc20b.chunk.js",
+    "static/js/2.46edc20b.chunk.js.map": "/TheOctoWorld/static/js/2.46edc20b.chunk.js.map",
+    "index.html": "/TheOctoWorld/index.html",
+    "static/css/main.dd3b6a94.chunk.css.map": "/TheOctoWorld/static/css/main.dd3b6a94.chunk.css.map",
+    "static/js/2.46edc20b.chunk.js.LICENSE.txt": "/TheOctoWorld/static/js/2.46edc20b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3053d566.js",
+    "static/js/2.46edc20b.chunk.js",
+    "static/css/main.dd3b6a94.chunk.css",
+    "static/js/main.77ccbe0d.chunk.js"
+  ]
+}
