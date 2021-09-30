@@ -1,0 +1,84 @@
+.why-get {
+    padding: 24px;
+}
+
+.why-get .wg-1 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.why-get .wg-1 img {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.wg-1-text {
+    text-align: right;
+}
+
+.wg-1-text .w-title {
+    font-size: 24px;
+}
+
+.wg-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.wg-2-title {
+    margin-top: -54px;
+}
+
+.wg-2-title p{
+    font-size: 36px;
+}
+
+.wg-2-title img {
+    width: 320px;
+}
+
+.wg-2-img2 img {
+    width: 440px;
+}
+
+@media (max-width: 815px) {
+
+    .why-get .wg-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .w-title {
+        margin-bottom: 20px;
+    }
+
+    .wg-1-text {
+        text-align: center;
+    }
+
+    .wg-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .wg-2-title {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 530px) {
+    .wg-2-img2 img {
+        width: 320px;
+    }
+}
+
+@media (max-width: 375px) {
+    .wg-2-img2 img {
+        width: 240px;
+    }
+
+    .wg-2-title img {
+        width: 240px;
+    }
+}

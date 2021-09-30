@@ -1,0 +1,39 @@
+.future {
+    background: rgb(169,212,234);
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.our-future {
+    text-align: center;
+    color: white;
+}
+
+.our-future p {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wwa {
+    margin: 8px 0;
+}
+
+.wwa-who {
+    font-size: 28px;
+}
+
+@media (max-width: 950px) {
+    .future {
+        grid-template-columns: 1fr;
+    }
+}

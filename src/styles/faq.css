@@ -1,0 +1,42 @@
+.faq {
+    padding: 24px;
+    background: #000;
+    color: white;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.faq-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-1 h1 {
+    font-size: 48px;
+}
+
+.faq-1 p {
+    margin: 24px 0;
+    font-size: 20px;
+}
+
+.faq-1 a {
+    text-decoration: none;
+}
+
+.faq-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-2 p {
+    margin: 24px 0;
+    font-size: 20px;
+}
+
+@media (max-width: 850px) {
+    .faq {
+        grid-template-columns: 1fr;
+    }
+}

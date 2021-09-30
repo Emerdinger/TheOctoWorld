@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*HOME*/
+
+.home {
+    background: rgb(211, 240, 255);
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px 120px;
+}
+
+.home .home-title h1 {
+    width: 300px;
+    font-size: 52px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.home .home-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 56px;
+}
+
+.home .home-info-img {
+    width: 600px;
+    text-align: center;
+}
+
+.home .home-info-img img {
+    width: 400px;
+    height: 400px;
+}
+
+.home .home-info-text {
+    width: 600px;
+}
+
+.home .home-info-text-border {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border: solid 6px rgb(157, 251, 240);
+    border-radius: 15px;
+    box-shadow: -10px 5px 5px #797979;
+}
+
+.home .home-info-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bnt-connect {
+    display: none;
+    background: rgb(255, 144, 183);
+    width: 248px;
+    height: 64px;
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+    box-shadow: inset -1px 2px 4px #000000;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.bnt-connect:hover {
+    cursor: pointer;
+    color: #000;
+    transition: all .5s ease-in-out;
+}
+
+/*Responsive*/
+
+@media (max-width: 1200px) {
+    .home .home-info-img img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .home {
+        height: 100%;
+    }
+
+    .home .home-title h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .home .home-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home {
+        padding: 40px 10px 10px 10px;
+    }
+
+    .home .home-info-text {
+        width: 100%;
+    }
+
+    .home .home-info-text-border {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .home .home-title h1 {
+
+        font-size: 40px;
+    }
+
+    .home {
+
+        padding: 10px;
+    }
+}
