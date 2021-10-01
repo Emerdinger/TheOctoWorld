@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/TheOctoWorld/static/css/main.dd3b6a94.chunk.css",
-    "main.js": "/TheOctoWorld/static/js/main.77ccbe0d.chunk.js",
-    "main.js.map": "/TheOctoWorld/static/js/main.77ccbe0d.chunk.js.map",
+    "main.css": "/TheOctoWorld/static/css/main.fbfcdb4c.chunk.css",
+    "main.js": "/TheOctoWorld/static/js/main.3d27c958.chunk.js",
+    "main.js.map": "/TheOctoWorld/static/js/main.3d27c958.chunk.js.map",
     "runtime-main.js": "/TheOctoWorld/static/js/runtime-main.3053d566.js",
     "runtime-main.js.map": "/TheOctoWorld/static/js/runtime-main.3053d566.js.map",
     "static/js/2.46edc20b.chunk.js": "/TheOctoWorld/static/js/2.46edc20b.chunk.js",
     "static/js/2.46edc20b.chunk.js.map": "/TheOctoWorld/static/js/2.46edc20b.chunk.js.map",
     "index.html": "/TheOctoWorld/index.html",
-    "static/css/main.dd3b6a94.chunk.css.map": "/TheOctoWorld/static/css/main.dd3b6a94.chunk.css.map",
-    "static/js/2.46edc20b.chunk.js.LICENSE.txt": "/TheOctoWorld/static/js/2.46edc20b.chunk.js.LICENSE.txt"
+    "static/css/main.fbfcdb4c.chunk.css.map": "/TheOctoWorld/static/css/main.fbfcdb4c.chunk.css.map",
+    "static/js/2.46edc20b.chunk.js.LICENSE.txt": "/TheOctoWorld/static/js/2.46edc20b.chunk.js.LICENSE.txt",
+    "static/media/home.a238ece8.png": "/TheOctoWorld/static/media/home.a238ece8.png",
+    "static/media/imagen1.2f8df417.png": "/TheOctoWorld/static/media/imagen1.2f8df417.png",
+    "static/media/imagen3.1ea665a3.png": "/TheOctoWorld/static/media/imagen3.1ea665a3.png",
+    "static/media/imagen4.18685c66.png": "/TheOctoWorld/static/media/imagen4.18685c66.png",
+    "static/media/imagen5.b8cbc214.png": "/TheOctoWorld/static/media/imagen5.b8cbc214.png",
+    "static/media/imagen6.518c72f6.png": "/TheOctoWorld/static/media/imagen6.518c72f6.png",
+    "static/media/imagen7.84db27f6.png": "/TheOctoWorld/static/media/imagen7.84db27f6.png",
+    "static/media/imagen8.747880fd.png": "/TheOctoWorld/static/media/imagen8.747880fd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3053d566.js",
     "static/js/2.46edc20b.chunk.js",
-    "static/css/main.dd3b6a94.chunk.css",
-    "static/js/main.77ccbe0d.chunk.js"
+    "static/css/main.fbfcdb4c.chunk.css",
+    "static/js/main.3d27c958.chunk.js"
   ]
 }
