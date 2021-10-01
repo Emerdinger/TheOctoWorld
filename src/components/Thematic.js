@@ -1,5 +1,9 @@
 import React from "react";
 import "../styles/thematic.css"
+import pulpo1 from "../assets/imagen6.png"
+import pulpo2 from "../assets/imagen7.png"
+import pulpo3 from "../assets/imagen8.png"
+import pulpo4 from "../assets/imagen1.png"
 
 export const Thematic = () => {
     return (
@@ -28,7 +32,9 @@ export const Thematic = () => {
                 <div className="grid">
                     <div className="grid-paises">
                         <div className="paises">
-                            <img src={`./assets/imagen8.png`} alt="pais-octo"/>
+                            <img
+                                src={pulpo3}
+                                alt="pais-octo"/>
                             <div className="paises-text">
                                 <span className="p-text-title">Países:</span>
                                 <br/>
@@ -40,7 +46,9 @@ export const Thematic = () => {
                             </div>
                         </div>
                         <div className="legendarios">
-                            <img className="legen-img" src={`./assets/imagen6.png`} alt="legendarios-octo"/>
+                            <img className="legen-img"
+                                 src={pulpo1}
+                                 alt="legendarios-octo"/>
                             <div className="legendarios-container">
                                 <div className="legendarios-text">
                                     <span className="p-text-title">Legendarios:</span>
@@ -50,13 +58,18 @@ export const Thematic = () => {
                                     más bajo de creación no pertenecientes a los 14 países pero en mucha menor cantidad que estos.
                                 </span>
                                 </div>
-                                <img src={`./assets/imagen7.png`} alt="legendarios-octo"/>
+                                <img
+                                    src={pulpo2}
+                                    alt="legendarios-octo"/>
                             </div>
                         </div>
                     </div>
                     <div className="grid-categorias">
                         <div className="g-img">
-                            <img className="imgC" src={`./assets/imagen1.png`} alt="legendarios-octo"/>
+                            <h1 className="rarezas">Rarezas</h1>
+                            <img className="imgC"
+                                 src={pulpo4}
+                                 alt="legendarios-octo"/>
                         </div>
                         <div className="g-categorias">
                             <div className="g-c-text">

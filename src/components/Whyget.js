@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/whyget.css"
+import imagen3 from "../assets/imagen3.png"
+import imagen4 from "../assets/imagen4.png"
+import imagen5 from "../assets/imagen5.png"
 
 export const Whyget = () => {
     return (
         <div className="why-get">
             <div className="wg-1">
-                <img src={'./assets/imagen4.png'} alt=""/>
+                <img src={imagen4} alt=""/>
                 <div className="wg-1-text">
                     <p className="w-title">¿Why get a OctoWorld?</p><br/>
                     <span>
@@ -21,10 +24,10 @@ export const Whyget = () => {
             <div className="wg-2">
                 <div className="wg-2-title">
                     <p>How much?</p>
-                    <img src={'./assets/imagen3.png'} alt="pricing"/>
+                    <img src={imagen3} alt="pricing"/>
                 </div>
                 <div className="wg-2-img2">
-                    <img src={'./assets/imagen5.png'} alt="octopulpo"/>
+                    <img src={imagen5} alt="octopulpo"/>
                 </div>
             </div>
         </div>

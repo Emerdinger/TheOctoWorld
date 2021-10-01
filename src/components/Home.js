@@ -1,4 +1,5 @@
 import React from "react";
+import home from "../assets/home.png"
 
 export const Home = () => {
     return (
@@ -8,7 +9,7 @@ export const Home = () => {
             </div>
             <div className="home-info">
                 <div className="home-info-img">
-                    <img src={`./assets/home.png`} alt=""/>
+                    <img src={home} alt="octo-home"/>
                 </div>
                 <div className="home-info-text">
                     <div className="home-info-text-border">

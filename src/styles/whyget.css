@@ -25,6 +25,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: center;
+    margin-top: -200px;
 }
 
 .wg-2-title {
@@ -36,14 +37,24 @@
 }
 
 .wg-2-title img {
-    width: 320px;
+    width: 420px;
+    height: 420px;
+    margin-top: -80px;
 }
 
 .wg-2-img2 img {
-    width: 440px;
+    width: 420px;
+    height: 420px;
+    padding-top: 60px;
 }
 
-@media (max-width: 815px) {
+@media (max-width: 1175px) {
+    .wg-2 {
+        margin-top: -80px;
+    }
+}
+
+@media (max-width: 900px) {
 
     .why-get .wg-1 {
         display: grid;
@@ -56,10 +67,12 @@
 
     .wg-1-text {
         text-align: center;
+        margin-top: -300px;
     }
 
     .wg-2 {
         grid-template-columns: 1fr;
+        margin-top: 0;
     }
 
     .wg-2-title {
@@ -67,9 +80,30 @@
     }
 }
 
+@media (max-width: 700px) {
+    .wg-1-text {
+        margin-top: -200px;
+    }
+}
+
 @media (max-width: 530px) {
     .wg-2-img2 img {
         width: 320px;
+    }
+    .wg-1-text {
+        margin-top: -100px;
+    }
+
+    .wg-2-title img {
+        width: 320px;
+        height: 320px;
+        margin-top: 0;
+    }
+
+    .wg-2-img2 img {
+        width: 320px;
+        height: 320px;
+        padding-top: 0;
     }
 }
 

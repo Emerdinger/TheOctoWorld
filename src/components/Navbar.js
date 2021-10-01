@@ -6,9 +6,9 @@ export const Navbar = () => {
         <div className="navbar">
             <ul className="nav-list">
                 <li>
-                    <a href="#rarity">Rarity</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="#roadmap">Roadmap</a>
+                    <a className="hide" href="#rarity">Rarity</a>
+                    <a className="hide" href="#faq">FAQ</a>
+                    <a className="hide" href="#roadmap">Roadmap</a>
                     <a href="#"><i className="fab fa-instagram fa-lg"></i></a>
                     <a href="#"><i className="fab fa-discord fa-lg"></i></a>
                     <a href="#"><i className="fab fa-twitter fa-lg"></i></a>
