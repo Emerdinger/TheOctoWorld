@@ -7,6 +7,7 @@ import {Whyget} from "./components/Whyget";
 import {Future} from "./components/Future";
 import {Faq} from "./components/Faq";
 import {Footer} from "./components/Footer";
+import {Banner} from "./components/Banner";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Thematic />
         <Whyget />
         <Future />
+        <Banner />
         <Faq />
         <Footer />
     </div>

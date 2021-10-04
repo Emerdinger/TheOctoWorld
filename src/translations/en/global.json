@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "rarity": "Rarity",
+    "faq": "FAQ",
+    "roadmap": "Roadmap"
+  },
+  "home": {
+    "title": "THE OCTO",
+    "title2": "WORLD",
+    "home-text": "Remember the stamp albums? well, you are close to entering the project of unique collectibles with the most famous theme in the world which will give you special rewards if you complete certain conditions with your NFTs. This fancied group of 3 people made by hand each part of the collection, it will be generated randomly using the blockchain technology on Ethereum and will have as a result 9984 octopus assemble randomly between infinite possibilities, also we will have 2 with an especial theme of Halloween and Christmas, and 14 octopus in the representation of certain countries, these will be the most unique.",
+    "btn-connect": "Connect"
+  },
+  "thematic": {
+    "coming-soon": "COMING SOON",
+    "opensea": "Buy on Opensea",
+    "thematic": "Thematic and rarity",
+    "thematic-text": "we want to lead the trading cards to the next level and create a digital art album the principal idea is traditional costumes and accessories of different countries in the current generation, we are going to represent 14 countries.",
+    "countries": "Countries:",
+    "countries-text": "it will be 14 NFTs with 3  locked representative traits and the other 2 random traits, 9 of these will be  firstly released in the mint of 9995 the last 5 are going to be available on Opensea only for the ones who have at least 4 NFTs at the time the collection is sold out.",
+    "legendary": "Legendary:",
+    "legendary-text": "It will be 2 NFTs with 5 traits which represent Christmas and Halloween, we also have an unknown quantity of NFTs with 1 or 2 traits of random countries with a low percentage of creation, the ratio will be lower than the 14 countries.",
+    "rarity": "Rarities",
+    "mythic": "Mythic:",
+    "mythic-text": "NFTs with some Christmas traits, Halloween, or other mythic traits.",
+    "rare": "Uncommon:",
+    "rare-text": "NFTs with some of the 30 traits that were created for this category.",
+    "common": "Common:",
+    "common-text": "NFTs with the highest ratio of production, also rare and amazing."
+  },
+  "whyget": {
+    "why-title": "¿Why have a Octo World?",
+    "why-text": "Besides being part of a big NFTs project with a lot of work hours behind, in which the biggest part of the tokens will be random, you can have an amazing profile picture and participate in the development of this incredible idea. Also, we will return 15% of all the collected Ethereum, we will give prices in Ethereum and 5% of exclusive NFTs, we want to create an incredible community that had their voice in the project and guide us into the next generation.",
+    "how-much": "How much is it?"
+  },
+  "future": {
+    "future-title": "¿What about our future?",
+    "future-text": "Our octopus is more than a digital art project, we had the dream of creating an incredible collection in which everyone wants to have their mother country token or their favorite country token, also if you don't have the luck of having one of those we want to encourage the trade of the NFTs inside the community, our focus will be the interactivity, the trade, rewards, and the growth of the community and if is a possible collaboration with other NFTs artist brands. We want that the community would be involved in all of this, and if you have any ideas for octopus please let us now.",
+    "who-we-are": "About us",
+    "who-we-are-text": "We are a team of 3 people highly passionate about the art world and digital media, the members are:",
+    "jaime": "Author of the idea, he tries to do everything in the management of the project, he supports the creative direction, he does everything about the marketing of the octopus, and he will solve any doubt you had.",
+    "sergio": "He is the brain of the behind de creative area, designer of each one of the  illustrations, designer of the banners, images, animations that you will find in our social network, he surely is the most artistic person you will ever meet.",
+    "emerson": "The Wosniak of the octopus, he's is responsible for all the tech parts of the project, contracts, servers, web site all the funny stuff that you maybe will not understand."
+  },
+  "faq": {
+    "nft-title": "What is an NFTs?",
+    "nft-text": "An NFT stands for a non-fungible token, a unique digital article which the users can buy, have, or trade.",
+    "nft-text2": "¿What is the point of a NFTs?",
+    "nft-text3": "To make it simple is digital art, specifically, in The Octo World, it will be helpful to participate in events. Exclusive rewards in the case you complete certain condition, and the most important one, is an uncommon artwork that will suit as you profile pic, in your shirt, or printed in your mug.",
+    "metamask": "What is metamask?",
+    "metamask-text": "Is a crypto wallet that allows you to have Ethereum, Ethereum is necessary to buy an Octoworld.",
+    "metamask-text1": "The address of your wallet is where your NFTs are storage, for more info here is the",
+    "metamask-text2": "link.",
+    "where": "Where does my octopus go after I buy it?",
+    "where-text": "Your octopus will be in any address or wallet that you use to do the purchase, also you can see your octopus on Open sea.",
+    "what-do": "What can I do with it?",
+    "what-do-text": "As an owner of a Octo World you can do whatever you want, if you want a T-Shirt, a Mug, a sticker, or made a painting or a sculpture you can do it.",
+    "what-not-do": "What can't I do with it?",
+    "what-not-do-text": "You can not sell the license to third parties, you can not create the same version of Octo World, if you want to do this you will have to ask for the permission of every owner of an octoworld if you didn't do that Open sea will ban your collection and maybe you can kill the project.",
+    "what-not-do-text2": "These are terms of fair use.",
+    "what-not-do-text3": " Also it made part of your investment so it will be better to avoid problems.",
+    "investment": "Octo World, a good investment?",
+    "investment-text": "As teamwork, we truly believe that you  had to make your own decision, we had in mind that the octopus has a long life as a project, we expected been growing and evolving, we are always thinking in new ideas of growing but we know that we depend in a lot of things and mostly in luck.",
+    "investment-text2": "Don’t spend money you can’t afford to not have.",
+    "reserved": "Locked octopus?",
+    "reserved-text": "We had locked 100 octopus that is destined for giveaways which will be given after the official launch and will not be part of the 10000 pool, each one of the 3 members of the project had their octopus, and we will lock other 10 for future members.",
+    "reserved-text2": "This new member will be chosen  inside the community."
+  }
+}

@@ -1,71 +1,64 @@
 import React from "react";
 import "../styles/faq.css"
+import {useTranslation} from "react-i18next";
 
 export const Faq = () => {
+
+    const [t] = useTranslation("global");
+
     return (
         <div className="faq" id="faq">
             <div className="faq-1">
                 <h1>FAQ</h1>
-                <p>WHAT'S AN NFT?</p>
+                <p>{t("faq.nft-title")}</p>
                 <span>
-                    Un NFT significa 'token no fungible' un articulo digital único que los usuarios pueden comprar, poseer e intercambiar.
+                    {t("faq.nft-text")}
                 </span>
                 <span>
-                    ¿Para qué sirven?
+                    {t("faq.nft-text2")}
                 </span>
                 <span>
-                    En pocas palabras es arte digital, en el caso de The Octo World Ofrecen también participaciones en eventos, recompensas exclusivas
-                    por completar ciertas condiciones y lo más importante, una obra de arte rara que quedara increíble como foto de perfil, en tu
-                    camiseta o en la taza del cafe.
+                    {t("faq.nft-text3")}
                 </span>
-                <p>¿Qué es metamask?</p>
+                <p>{t("faq.metamask")}</p>
                 <span>
-                    Es una billetera criptográfica que almacena Ethereum, la cual es necesaria para comprar un OctoWorld.
+                    {t("faq.metamask-text")}
                 </span>
                 <span>
-                    La dirección de su billetera es donde se almacenarán sus NFT; para mas información puedes dar click <a
-                    href="https://metamask.io/" target="_blank" rel="noreferrer">aquí</a>.
+                    {t("faq.metamask-text1")} <a
+                    href="https://metamask.io/" target="_blank" rel="noreferrer">{t("faq.metamask-text2")}</a>
                 </span>
-                <p>¿Donde quedara mi pulpo después de comprarlo?</p>
+                <p>{t("faq.where")}</p>
                 <span>
-                    Su pulpo se encontrará en cualquier dirección o billetera conectada que utilizó para realizar la compra. Puede ver su pulpo en su
-                    colección de Opensea.
+                    {t("faq.where-text")}
                 </span>
-                <span>¿Que podre hacer con el?</span>
+                <span>{t("faq.what-do")}</span>
                 <span>
-                    Como propietario de The Octo World básicamente tienes total derecho a hacer lo que quieras con él. Si quieres una camiseta, una taza,
-                    un sticker o pedirle a un artista que haga una pintura o escultura de el, puedes hacerlo.
+                    {t("faq.what-do-text")}
                 </span>
             </div>
             <div className="faq-2">
-                <p>¿Que no puedo hacer con el?</p>
+                <p>{t("faq.what-not-do")}</p>
                 <span>
-                    No podrá sub licenciar su licencia o terceros, no podrá crear una versión exacta de ningún pulpo para la venta, ya que si no es
-                    su propio pulpo, tendril que pedir la licencia al propietario o a cada propietario del pulpo en cuestión. Si se llegara a hacer,
-                    Opensea podría tumbar su NFT o toda la colección y de la misma manera moriría el proyecto.
+                    {t("faq.what-not-do-text")}
                 </span>
                 <span>
-                    Son términos claros de la ley de derechos de autor y es algo muy complicado.
+                    {t("faq.what-not-do-text2")}
                 </span>
                 <span>
-                    Además es también parte de su inversión, asi que es mejor evitar cualquier inconveniente.
+                    {t("faq.what-not-do-text3")}
                 </span>
-                <p>Are OctoWorld a good investment?</p>
+                <p>{t("faq.investment")}</p>
                 <span>
-                    Como equipo de trabajo creemos que esto debe ser una decisión propia. Nosotros tenemos muy presente que los pulpos tienen una larga
-                    vida por delante y estaremos en constante crecimiento y evolución, pensamos en muchas maneras de crecer exponencialmente pero
-                    sabemos que dependemos de muchas variables y algo de suerte en general.
+                    {t("faq.investment-text")}
                 </span><br/>
-                <span>Don't spend money you can't afford to not have.</span>
-                <p>¿Pulpos reservados?</p>
+                <span>{t("faq.investment-text2")}</span>
+                <p>{t("faq.reserved")}</p>
                 <span>
-                    Hemos reservado 100 pulpos para sorteos en los diferentes concursos que haremos, los cuales se entregarán después del lanzamiento
-                    y no ocuparan un lugar entre los primeros 10000. Cada uno de los 3 miembros del equipo de trabajo recibirá un pulpo perteneciente
-                    a esta primera generación y se guardaran alrededor 10 pulpos para futuros integrantes del equipo.
+                    {t("faq.reserved-text")}
                 </span>
                 <span>
-                    Estas plazas del equipo se irán abriendo a medida que crezca el proyecto y los miembros de la comunidad tendrán prioridad a la hora
-                    de solicitar un puesto.
+                    {t("faq.reserved-text2")}
                 </span>
             </div>
         </div>

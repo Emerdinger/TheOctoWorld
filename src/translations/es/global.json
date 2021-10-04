@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "rarity": "Rarezas",
+    "faq": "FAQ",
+    "roadmap": "Nosotros"
+  },
+  "home": {
+    "title": "THE OCTO",
+    "title2": "WORLD",
+    "home-text": "¿Recuerdas los álbumes de cromos? Bueno, estas a punto de entrar en un proyecto de coleccionables únicos con la temática más famosa del universo que te darán recompensas especiales por completar ciertas condiciones en tus NFTs. Este selecto grupo de 3 personas dibujo a mano cada una de las partes que conforman la colección, los generará  aleatoriamente mediante programación en la cadena de bloques Ethereum y tendrá como resultado 9984 pulpos ensamblados al azar de entre infinitas opciones en total, 2 pulpos con temática de navidad y halloween y  14 pulpos representativos de países que serán los más difíciles de obtener. Pulpos increíbles que harán que sea el mejor avatar posible.",
+    "btn-connect": "Conectarse"
+  },
+  "thematic": {
+    "coming-soon": "PRÓXIMAMENTE",
+    "opensea": "OpenSea",
+    "thematic": "Temática y rareza",
+    "thematic-text": "Queremos llevar la colección de cromos al siguiente nivel y hacer un álbum de arte digital, nos basaremos en atuendos y accesorios representativos mundialmente de diferentes países, en esta primera generación serán 14 los países representados.",
+    "countries": "Países:",
+    "countries-text": "Serán 14 NFTs con 3 rasgos representativos permanentes y 2 rasgos al azar; 9 de estos estarán disponibles en el mint inicial de 9995 pulpos y los otros 5 se subastarán en Opensea entre los propietarios de 4 o más pulpos a la hora de agotarse esta primera generación.",
+    "legendary": "Legendarios:",
+    "legendary-text": "Serán 2 NFTs con 5 rasgos permanentes representativos de Navidad y Halloween, una cantidad oculta de NFTs con 1 o 2 rasgos únicos de países aleatorizados además de otros rasgos con el porcentaje más bajo de creación no pertenecientes a los 14 países pero en mucha menor cantidad que éstos.",
+    "rarity": "Rarezas",
+    "mythic": "Míticos:",
+    "mythic-text": "NFTs con algunos rasgos de Navidad, Halloween o los rasgos creados para pertenecer a esta rareza.",
+    "rare": "Raros:",
+    "rare-text": "NFTs con alguno(s) de nuestros 30 rasgos creados para este nivel de pulpos.",
+    "common": "Comunes:",
+    "common-text": "NFTs únicos e increíbles pero en la mayor cantidad de producción."
+  },
+  "whyget": {
+    "why-title": "¿Por que elegir un OctoWorld?",
+    "why-text": "Además de ser partícipe de un gran proyecto de NFT con muchas horas de trabajo encima en donde el mayor porcentaje de tokens esta aleatorizado, podrás obtener una increíble foto de perfil y participar activamente de todo lo que le deparará  ésta increíble idea. Estaremos devolviendo el 15% de todo el Ethereum recaudado en concursos y recompensas con premios en esta misma moneda y el 5% en premios de NFTs exclusivos. Queremos crear una increíble comunidad que tenga voz dentro del proyecto, que nos guíe en siguientes estancias, que nos ayude en ideas para la siguiente generación y que esté presente para llevarnos de la mano en esta primera parte del proyecto.",
+    "how-much": "¿Cuanto cuesta?"
+  },
+  "future": {
+    "future-title": "¿Qué será de nuestro futuro?",
+    "future-text": "Nuestros pulpos son mucho más que un proyecto de arte digital, tenemos la esperanza de crear una colección increíble en donde todos quieran tener el token de su país de residencia o país favorito, además de que si no tienes la suerte de obtener uno de estos puedas tener un NFT con rasgos muy difíciles de conseguir y con él promover el intercambio de estos mismos por uno que quieras con toda el alma. Nos basaremos en la interactividad, el intercambio, las recompensas, el crecimiento de la comunidad y si es posible la distinta colaboración con otros NFTs o marcas. Queremos que la comunidad nos ayude con todo esto y si tienen una increíble idea para los pulpos háganosla saber lo mas rápido posible.",
+    "who-we-are": "¿Quiénes somos?",
+    "who-we-are-text": "Somos un equipo de 3 personas apasionados por el arte, el mundo digital y la programación los cuales tenemos infinitas ganas de hacer algo muy grande. Nuestro equipo está conformado por:",
+    "jaime": "Creador de la idea, trata de hacer todo lo posible por la gestión del proyecto, apoya en la dirección creativa, da todo de sí en lo que será el marketing de los pulpos y resuelve cualquier duda que alguien pueda tener.",
+    "sergio": "Es el cerebro de la parte creativa, diseñador de todas la ilustraciones, creador de los diferentes banner, imágenes y animaciones que encontrarán en nuestras diferentes redes sociales, la personas más artística que conocerán.",
+    "emerson": "El Wosniak de los pulpos, responsable de todo el aspecto técnico del proyecto, contratos inteligentes, servidores, página web y todas esas cosas divertidas que la mayoría de la población no entiende."
+  },
+  "faq": {
+    "nft-title": "¿Qué es un NFT?",
+    "nft-text": "Un NFT significa “token no fungible” un artículo digital único que los usuarios pueden comprar, poseer e intercambiar.",
+    "nft-text2": "¿Para qué sirven?",
+    "nft-text3": "En pocas palabras es arte digital, en el caso de The Octo World ofrecen también participaciones en eventos, recompensas exclusivas por completar ciertas condiciones y lo más importante, una obra de arte rara que quedará increíble como foto de perfil, en tu camiseta o en la taza del cafe.",
+    "metamask": "¿Qué es metamask?",
+    "metamask-text": "Es una billetera criptográfica que almacena Ethereum, la cual es necesaria para comprar un Octoworld.",
+    "metamask-text1": "La dirección de su billetera es donde se almacenarán sus NFT; para más información puedes dar click",
+    "metamask-text2": "aquí.",
+    "where": "¿Dónde quedará mi pulpo después de comprarlo?",
+    "where-text": "Su pulpo se encontrará en cualquier dirección o billetera conectada que utilizó para realizar la compra. Puede ver su pulpo en su colección de Opensea.",
+    "what-do": "¿Qué podré hacer con él?",
+    "what-do-text": "Como propietario de The Octo World básicamente tienes total derecho a hacer lo que quieras con él; Si quieres una camiseta, una taza, un sticker o pedirle a un artista que haga una pintura o escultura de él, puedes hacerlo.",
+    "what-not-do": "¿Qué no puedo hacer con él?",
+    "what-not-do-text": "No podrá sublicenciar su licencia a terceros, no podrá crear una versión exacta de ningún pulpo para la venta, ya que si no es su propio pulpo, tendría que pedir la licencia a el propietario o a cada propietario del pulpo en cuestión. Si se llegara a hacer, Opensea podría tumbar su NFT o toda la colección y de la misma manera moriría el proyecto.",
+    "what-not-do-text2": "Son términos claros de la ley de derechos de autor y es algo muy complicado.",
+    "what-not-do-text3": "Además es también parte de su inversión, así que es mejor evitar cualquier inconveniente.",
+    "investment": "¿OctoWorld es una buena inversión?",
+    "investment-text": "Como equipo de trabajo creemos que esto debe ser una decisión propia. Nosotros tenemos muy presente que los pulpos tienen una larga vida por delante y estaremos en constante crecimiento y evolución, pensamos en muchas maneras de crecer exponencialmente pero sabemos que dependemos de muchas variables y algo de suerte en general.",
+    "investment-text2": "No gaste dinero que no pueda permitirse no tener.",
+    "reserved": "¿Pulpos reservados?",
+    "reserved-text": "Hemos reservado 100 pulpos para sorteos en los diferentes concursos que haremos, los cuales se entregarán después del lanzamiento y no ocuparan un lugar entre los primeros 10000. Cada uno de los 3 miembros del equipo de trabajo recibirá un pulpo perteneciente a esta primera gen y se guardarán alrededor de 10 pulpos para futuros integrantes del equipo.",
+    "reserved-text2": "Estas plazas del equipo se irán abriendo a medida que crezca el proyecto y los miembros de la comunidad tendrán prioridad a la hora de solicitar un puesto."
+  }
+}

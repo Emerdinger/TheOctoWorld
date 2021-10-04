@@ -4,29 +4,29 @@ import pulpo1 from "../assets/imagen6.png"
 import pulpo2 from "../assets/imagen7.png"
 import pulpo3 from "../assets/imagen8.png"
 import pulpo4 from "../assets/imagen1.png"
+import {useTranslation} from "react-i18next";
 
 export const Thematic = () => {
+
+    const [t] = useTranslation("global");
+
     return (
         <div className="thematic" id="rarity">
             <div className="coming-soon">
-                <p>COMING | SOON</p>
+                <p>{t("thematic.coming-soon")}</p>
             </div>
             <div className="buy-opensea">
                 <a href="https://opensea.com">
-                    Buy on Opensea
+                    {t("thematic.opensea")}
                 </a>
             </div>
             <div className="thematic-rarity">
                 <div className="t-r">
                     <div className="t-r-title">
-                        <h2>Thematic & Rarity</h2>
+                        <h2>{t("thematic.thematic")}</h2>
                     </div>
                     <div className="t-r-text">
-                        <p>Queremos llevar la colección de cromos al siguiente nivel y hacer un álbum de arte digital,
-                            nos basaremos
-                            en atuendos y accesorios representativos mundialmente de diferentes países, en esta primera
-                            generación
-                            serán 14 los países representados.</p>
+                        <p>{t("thematic.thematic-text")}</p>
                     </div>
                 </div>
                 <div className="grid">
@@ -36,12 +36,10 @@ export const Thematic = () => {
                                 src={pulpo3}
                                 alt="pais-octo"/>
                             <div className="paises-text">
-                                <span className="p-text-title">Países:</span>
+                                <span className="p-text-title">{t("thematic.countries")}</span>
                                 <br/>
                                 <span>
-                                    Serán 14 NFTs con 3 rasgos representativos permanentes y 2 rasgos al azar; 9 de estos estarán
-                                    disponibles en el mint inicial de 9995 pulpos y los otros 5 se subastarán en Opensea entre
-                                    los propietarios de 4 o más pulpos a la hora de agotarse esta primera generación.
+                                    {t("thematic.countries-text")}
                                 </span>
                             </div>
                         </div>
@@ -51,11 +49,9 @@ export const Thematic = () => {
                                  alt="legendarios-octo"/>
                             <div className="legendarios-container">
                                 <div className="legendarios-text">
-                                    <span className="p-text-title">Legendarios:</span>
+                                    <span className="p-text-title">{t("thematic.legendary")}</span>
                                     <span>
-                                    Serán 2 NFTs con 5 rasgos permanentes representativos de Navidad y Halloween, una cantidad oculta
-                                    de NFTs con 1 o 2 rasgos únicos de países aleatorizados además de otros rasgos con el porcentaje
-                                    más bajo de creación no pertenecientes a los 14 países pero en mucha menor cantidad que estos.
+                                    {t("thematic.legendary-text")}
                                 </span>
                                 </div>
                                 <img
@@ -66,24 +62,23 @@ export const Thematic = () => {
                     </div>
                     <div className="grid-categorias">
                         <div className="g-img">
-                            <h1 className="rarezas">Rarezas</h1>
+                            <h1 className="rarezas">{t("thematic.rarity")}</h1>
                             <img className="imgC"
                                  src={pulpo4}
                                  alt="legendarios-octo"/>
                         </div>
                         <div className="g-categorias">
                             <div className="g-c-text">
-                                <span className="p-text-title">Míticos:</span><br/>
-                                <span>NFTs con algunos rasgos de Navidad, Halloween o los rasgos creados para pertenecer a esta
-                                rareza.</span>
+                                <span className="p-text-title">{t("thematic.mythic")}</span><br/>
+                                <span>{t("thematic.mythic-text")}</span>
                             </div>
                             <div className="g-c-text">
-                                <span className="p-text-title">Raros:</span><br/>
-                                <span>NFTs con alguno(s) de nuestros 30 rasgos creados para este nivel de pulpos.</span>
+                                <span className="p-text-title">{t("thematic.rare")}</span><br/>
+                                <span>{t("thematic.rare-text")}</span>
                             </div>
                             <div className="g-c-text">
-                                <span className="p-text-title">Comunes:</span><br/>
-                                <span>NFTs únicos e increíbles pero en la mayor cantidad de producción.</span>
+                                <span className="p-text-title">{t("thematic.common")}</span><br/>
+                                <span>{t("thematic.common-text")}</span>
                             </div>
                         </div>
                     </div>

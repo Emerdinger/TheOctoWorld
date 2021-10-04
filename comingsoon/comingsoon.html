@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TheOctoWorld</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Coming Soon" name="description">
+    <meta charset="UTF-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+</head>
+<style>
+    @import url('http://fonts.cdnfonts.com/css/debussy');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 60px;
+        letter-spacing: 15px;
+    }
+
+    hr {
+        width: 50%;
+        margin: 30px auto;
+        border: 1.5px solid #fff;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    #launch {
+        font-size: 40px;
+        word-spacing: 20px;
+    }
+
+</style>
+<body>
+<header>
+    <div class="hero">
+        <p>Something amazing is about to come from the bottom of the ocean.</p>
+        <h1>COMING SOON!</h1>
+        <hr>
+        <p id="launch"></p>
+    </div>
+</header>
+</body>
+<script>
+    let countDownDate = new Date("October 5, 2021 00:00:00").getTime();
+
+    let x =  setInterval(() => {
+        let now = new Date().getTime();
+        let distance = countDownDate - now;
+        let days =  Math.floor(distance/(1000*60*60*24));
+        let hours = Math.floor((distance % (1000*60*60*24))/(1000*60*60));
+        let minutes = Math.floor((distance % (1000*60*60))/(1000*60));
+        let seconds = Math.floor((distance % (1000*60))/1000);
+
+        document.getElementById("launch").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("launch").innerHTML = "Building..."
+        }
+    }, 1000)
+
+    if (sad() === true) {
+        buyOctoWorld();
+        beAwesome();
+    }
+
+</script>
+</html>

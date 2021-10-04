@@ -13,3 +13,17 @@
     color: rgb(130,130,130);
     margin: 0 16px;
 }
+
+@media (max-width: 575px) {
+    .footer{
+        justify-content: center;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .hide{
+        display: none;
+    }
+}

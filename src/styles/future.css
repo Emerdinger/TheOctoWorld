@@ -9,6 +9,10 @@
 }
 
 .our-future {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
 }
@@ -16,6 +20,10 @@
 .our-future p {
     font-size: 28px;
     margin-bottom: 16px;
+}
+
+.our-future img {
+    width: 300px;
 }
 
 .who-we-are {
